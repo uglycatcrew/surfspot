@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Kvalnes",
+    "coordinates": "68.3531598752746, 13.96822317228833",
+    "description": "Kvalnes (Lofoten) in Lofoten Islands and Arctic is an exposed break. that has quite consistent surf, although summer tends to be mostly flat. Ideal winds are from the southwest. Waves more likely to be from local windswells than distant groundswells and the ideal wave direction is from the north. The beach breaks offer lefts and rights. It very rarely gets crowded here. Dangerous rips are a hazard of surfing here.",
+    "instaLocation": "https://www.instagram.com/explore/tags/kvalnes"
+  },
+  {
+    "id": 2,
+    "name": "Tijuana",
+    "coordinates": "32.57808830709014, -117.13498505855627",
+    "description": "Tijuana Sloughs Surf Guide / USA",
+    "instaLocation": "https://www.instagram.com/explore/tags/tijuana"
+  },
+  {
+    "id": 3,
+    "name": "Big Lagoon",
+    "coordinates": "41.15597977270496, -124.13997937219841",
+    "description": "Big Lagoon Surf Guide / USA",
+    "instaLocation": "https://www.instagram.com/explore/tags/biglagoon"
+  },
+  {
+    "id": 4,
+    "name": "Nazare",
+    "coordinates": "39.573850, -9.097690",
+    "description": "Nazare Surf Guide / Portugal",
+    "instaLocation": "https://www.instagram.com/explore/tags/nazare"
+  },
+  {
+    "id": 5,
+    "name": "Espinho",
+    "coordinates": "41.00127289589364, -8.657597763432742",
+    "description": "Espinho Surf Guide / Portugal",
+    "instaLocation": "https://www.instagram.com/explore/tags/espinho"
+  }
+]
