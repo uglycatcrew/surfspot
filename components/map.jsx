@@ -1,5 +1,9 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
+
+import 'leaflet/dist/leaflet.css'
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css'
+import "leaflet-defaulticon-compatibility"
 
 export default function Map({ spots, selectSpot, children }) {
   const [position, setPosition] = useState([
@@ -8,7 +12,7 @@ export default function Map({ spots, selectSpot, children }) {
 
   return (
     <>
-      <MapContainer center={position} zoom={4} scrollWheelZoom style={{height: 400, width: "50%"}}>
+      <MapContainer center={position} zoom={4} scrollWheelZoom={false}  >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -18,6 +22,8 @@ export default function Map({ spots, selectSpot, children }) {
           <Marker
             key={spot.id ?? spot.name}
             position={spot.coordinates}
+            draggable={true} 
+            animate={true} 
             eventHandlers={{
               click() {
                 selectSpot(spot);
