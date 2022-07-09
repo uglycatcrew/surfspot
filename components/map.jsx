@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 
 import 'leaflet/dist/leaflet.css'
@@ -12,12 +12,11 @@ export default function Map({ spots, selectSpot, children }) {
 
   return (
     <>
-      <MapContainer center={position} zoom={4} scrollWheelZoom={false}  >
+      <MapContainer center={position} zoom={6} scrollWheelZoom={false}  >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
         {spots.map((spot) => (
           <Marker
             key={spot.id ?? spot.name}

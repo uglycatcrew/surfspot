@@ -33,5 +33,274 @@
     "coordinates": "41.00127289589364, -8.657597763432742",
     "description": "Espinho Surf Guide / Portugal",
     "instaLocation": "https://www.instagram.com/explore/tags/espinho"
-  }
+  }, 
+  {
+    "id": 6,
+    "name": "Decaplage",
+    "coordinates": "36.78681, 3.323493",
+    "description": "Decaplage",
+    "instaLocation": "https://www.instagram.com/explore/tags/espinho"
+  }, 
+  {
+    "id": 7,
+    "name": "Fajã Grande",
+    "coordinates": "39.450079, -31.268141",
+    "description": "Espinho Surf Guide / Portugal",
+    "instaLocation": "https://www.instagram.com/explore/tags/espinho"
+  }, 
+  {
+    "id": 8,
+    "name": "Caldeira",
+    "coordinates": "38.62817, -27.927461",
+    "description": "EspinhoSurf Guide / Portugal",
+    "instaLocation": "https://www.instagram.com/explore/tags/espinho"
+  },
+  {
+    "name": "Ain Barbar",
+    "coordinates": "36.995321, 7.557778",
+    "id": 0,
+    "country": "Algeria",
+    "instaLocation": "https://www.instagram.com/explore/tags/aingbarbar"
+},
+{
+    "name": "Ain El Turk",
+    "coordinates": "35.737772, -0.735902",
+    "id": 1,
+    "country": "Algeria",
+    "instaLocation": "https://www.instagram.com/explore/tags/aingel turk"
+},
+{
+    "name": "cherchell tizirine",
+    "coordinates": "36.611394, 2.204132",
+    "id": 2,
+    "country": "Algeria",
+    "instaLocation": "https://www.instagram.com/explore/tags/cherchellgtizirine"
+},
+{
+    "name": "Decaplage",
+    "coordinates": "36.78681, 3.323493",
+    "id": 3,
+    "country": "Algeria",
+    "instaLocation": "https://www.instagram.com/explore/tags/decaplage"
+},
+{
+    "name": "Plage Mordjane",
+    "coordinates": "36.89843, 8.430161",
+    "id": 4,
+    "country": "Algeria",
+    "instaLocation": "https://www.instagram.com/explore/tags/plagegmordjane"
+},
+{
+    "name": "Sidi Salem",
+    "coordinates": "36.863141, 7.78244",
+    "id": 5,
+    "country": "Algeria",
+    "instaLocation": "https://www.instagram.com/explore/tags/sidigsalem"
+},
+{
+    "name": "Ambriz Beach",
+    "coordinates": "-7.848205, 13.100067",
+    "id": 0,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/ambrizgbeach"
+},
+{
+    "name": "Barra da Kwanza",
+    "coordinates": "-9.359982, 13.152008",
+    "id": 1,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/barragda kwanza"
+},
+{
+    "name": "Buraco",
+    "coordinates": "-9.027636, 13.001869",
+    "id": 2,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/buraco"
+},
+{
+    "name": "cabgo",
+    "coordinates": "-5.414333, 12.205047",
+    "id": 3,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/cabgo"
+},
+{
+    "name": "Cabo Ledo",
+    "coordinates": "-9.676569, 13.198957",
+    "id": 4,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/cabogledo"
+},
+{
+    "name": "Chicala",
+    "coordinates": "-8.82401, 13.203034",
+    "id": 5,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/chicala"
+},
+{
+    "name": "Miradouro",
+    "coordinates": "-9.250378, 13.091927",
+    "id": 6,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/miradouro"
+},
+{
+    "name": "N'Zeto left",
+    "coordinates": "-7.227297, 12.854513",
+    "id": 7,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/n'zetogleft"
+},
+{
+    "name": "Point of mussulo",
+    "coordinates": "-8.861666, 13.156128",
+    "id": 8,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/pointgof mussulo"
+},
+{
+    "name": "Quicombo",
+    "coordinates": "-11.317029, 13.811338",
+    "id": 9,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/quicombo"
+},
+{
+    "name": "Quimavongo",
+    "coordinates": "-7.632952, 13.021646",
+    "id": 10,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/quimavongo"
+},
+{
+    "name": "Sangano",
+    "coordinates": "-9.53645, 13.19923",
+    "id": 11,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/sangano"
+},
+{
+    "name": "Shipwreck",
+    "coordinates": "-9.108877, 12.999573",
+    "id": 12,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/shipwreck"
+},
+{
+    "name": "Sumbe",
+    "coordinates": "-11.226961, 13.833847",
+    "id": 13,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/sumbe"
+},
+{
+    "name": "Turtles",
+    "coordinates": "-5.224458, 12.137519",
+    "id": 14,
+    "country": "Angola",
+    "instaLocation": "https://www.instagram.com/explore/tags/turtles"
+},
+{
+    "name": "la Méduse",
+    "coordinates": "6.350397, 2.434416",
+    "id": 0,
+    "country": "Benin",
+    "instaLocation": "https://www.instagram.com/explore/tags/lagméduse"
+},
+{
+    "name": "La routes des pêches",
+    "coordinates": "6.349037, 2.338843",
+    "id": 1,
+    "country": "Benin",
+    "instaLocation": "https://www.instagram.com/explore/tags/lagroutes des pêches"
+},
+{
+    "name": "Le Wado",
+    "coordinates": "6.34735, 2.31878",
+    "id": 2,
+    "country": "Benin",
+    "instaLocation": "https://www.instagram.com/explore/tags/legwado"
+},
+{
+    "name": "Kribi",
+    "coordinates": "2.933419, 9.90484",
+    "id": 0,
+    "country": "Cameroon",
+    "instaLocation": "https://www.instagram.com/explore/tags/kribi"
+},
+{
+    "name": "Lonely Left",
+    "coordinates": "4.016833, 9.10287",
+    "id": 1,
+    "country": "Cameroon",
+    "instaLocation": "https://www.instagram.com/explore/tags/lonelygleft"
+},
+{
+    "name": "Seme Beach, Limbe",
+    "coordinates": "4.011877, 9.139595",
+    "id": 2,
+    "country": "Cameroon",
+    "instaLocation": "https://www.instagram.com/explore/tags/semegbeach, limbe"
+},
+{
+    "name": "Tsaben Beach",
+    "coordinates": "4.05985, 9.043245",
+    "id": 3,
+    "country": "Cameroon",
+    "instaLocation": "https://www.instagram.com/explore/tags/tsabengbeach"
+},
+{
+    "name": "Cadjau",
+    "coordinates": "15.272454, -23.75978",
+    "id": 0,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/cadjau"
+},
+
+{
+    "name": "Cidade Velha",
+    "coordinates": "14.915033, -23.609555",
+    "id": 2,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/cidadegvelha"
+},
+{
+    "name": "Coca's Beach,Praia",
+    "coordinates": "14.916686, -23.506134",
+    "id": 3,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/coca'sgbeach,praia"
+},
+{
+    "name": "Coragi",
+    "coordinates": "14.902508, -23.522662",
+    "id": 4,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/coragi"
+},
+{
+    "name": "curralinho",
+    "coordinates": "16.922309, -25.313565",
+    "id": 5,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/curralinho"
+},
+
+{
+    "name": "K-Bay",
+    "coordinates": "14.985105, -23.444964",
+    "id": 8,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/k-bay"
+},
+{
+    "name": "Laginha",
+    "coordinates": "16.895283, -24.992008",
+    "id": 9,
+    "country": "Cape Verde",
+    "instaLocation": "https://www.instagram.com/explore/tags/laginha"
+}
+  
 ]

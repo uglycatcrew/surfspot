@@ -1,4 +1,5 @@
-import React, { Fragment, useState } from "react";
+import { Fragment, useState } from "react";
+import useSWR from 'swr'
 import { Transition } from "@headlessui/react";
 import { XIcon } from "@heroicons/react/outline";
 import { ArrowSmDownIcon, ArrowSmUpIcon } from "@heroicons/react/solid";
@@ -11,6 +12,7 @@ import {
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+
 
 const stats = [
   {
@@ -32,7 +34,14 @@ const stats = [
     icon: CursorClickIcon
   },
 ];
+
+const fetcher = (url) => fetch(url).then((res) => res.json())
+
 export default function SpotDetails({ spot, removeSpot }) {
+
+  const { data } = useSWR('/api/marine', fetcher)
+  console.log('DATA MARINE', data);
+  
   return (
     <Transition.Root show={Boolean(spot?.id)} as={Fragment}>
       <div className="right-0 absolute h-full z-50">
@@ -52,10 +61,10 @@ export default function SpotDetails({ spot, removeSpot }) {
                   <div className="text-lg font-medium text-white">
                     {spot.name}{" "}
                     <span className="mx-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-pink-100 text-pink-800">
-                      water 18 °C
+                      water {data?.data?.weather?.[0].hourly?.[0].waterTemp_C} °C
                     </span>
                     <span className="mx-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-pink-100 text-green-800">
-                      air 24 °C
+                      air {data?.data?.weather?.[0].maxtempC} °C
                     </span>
                   </div>
                   <div className="ml-3 h-7 flex items-center">

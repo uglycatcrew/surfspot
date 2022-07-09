@@ -1,6 +1,4 @@
 
-import React from "react";
-
 /*
   This example requires Tailwind CSS v2.0+
 
